@@ -128,6 +128,9 @@ h6 {
     text-align: center;
     padding: 20px 0;
 }
+/* .jumbotron {
+  background-image: url(../image/ikhlasmengajar1.png); */
+}
 .jumbotron h1{
     font-size: 32px;
     padding: 0 20px;
@@ -136,17 +139,17 @@ h6 {
     font-size: 20px;
     padding: 0 20px;
 }
-/* Ed Jumbotron*/
+/* End Jumbotron*/
 
 /* Start Main */
 .main-home-one{
   float: left;
-  width: 49.2%
+  width: 60%
 }
 
 .main-home-two{
   float: right;
-  width: 49.2%;
+  width: 39%;
 }
 
 .main-home-one .box-isi,
@@ -157,21 +160,21 @@ h6 {
 
 /* Start Box*/
 .box-heading {
-  background-color: #f6f8fa;
+  background-color: #ffffff;
   border: 1px solid #d1d5da;
-  border-radius: 3px 3px 0 0;
+  border-radius: 4px 4px 0 0;
   margin: 0;
-  padding: 10px 20px;
+  padding: 10px 30px;
   text-transform: uppercase;
 }
 .box-heading h4 {
-  font-size: 14px;
+  font-size: 12px;
   margin: 0;
 }
 
 .box-isi {
   background-color: #ffffff;
-  border: 1px solid #eaecea;
+  border: 2px solid #eaecea;
   border-top: 0;
   margin: 0;
   padding: 10px 20px;
@@ -211,12 +214,14 @@ h6 {
   width: 100%;
   text-align: justify;
 }
-.menu-sekunder-two,
-.menu-sekunder-three {
-  width: 40%;
+#footercolumns {
+  padding:0em 0 0 2%
 }
-.menu-sekunder li img {
-  vertical-align: middle;
+#footercolumns .block {
+  float:left; width:32%; margin:0 0 0 1%
+}
+#footercolumns .first, * html #footercolumns .first{
+  clear:both; margin:0
 }
 /* End Menu Sekunder */
 
