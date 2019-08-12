@@ -4,74 +4,77 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	
+	<!-- Start Title -->
+	<script type="text/javascript" language="javascript">
+		var txt="Ikhlas Mengajar WiZa";
+		var speed="300";
+		var refresh ="null";
+		function action() { document.title=txt;
+			txt=txt.substring(1,txt.length)+txt.charAt(0);
+			refresh=setTimeout("action()" ,speed);}action();
+		</script>
+		<!-- End Title-->
+	
 	<title>komunitas ikhlas mengajar - Wiza </title>
 	<meta name="describtion" content="ikhlas mengajar adalah sebuah komunitas yang dibentuk untuk para tim pengajar yangingin berbagi ilmunya dengan cuma-cuma">
+	<!-- Start CSS -->
+	<link rel="stylesheet" href="styles/style.css">
+	<!-- End CSS -->
 </head>
 <body>
 
 	<!-- start logo -->
-	<img src="image/kudaputih.jpg" alt="kuda putih" width="200">
+	<div class="container logo">
+		<a href="index.html" title="ikhlas mengajar"></a><img src="image/ikhlasmengajar1.png" alt="ikhlas mengajar" width="300">
+			</a>
+	</div>
 	<!-- end logo-->
-
-	<h1>Ini halaman Home</h1>
-
-	<!-- start isi -->
-	<p>
-		paragraph pertama, paragraph pertama
-		paragraph pertama, paragraph pertama
-		paragraph pertama, paragraph pertama
-	</p>
-	
-
-	<p>
-		paragraph kedua, paragraph pertama
-		paragraph pertama, paragraph pertama
-		paragraph pertama, paragraph pertama
-	</p>
-	<!-- end isi -->
-
+			
 	<!-- strat menu primer -->
-	<ul>
-		<li>
-			<a href="index.html" title="Beranda">Beranda</a>
-		</li>
-		<li>
-			<a href="tentang.html" title="Tentang Kami">Tentang Kami</a>
-		</li>
-		<li>
-			<a href="layanan.html" title="Layanan">Layanan</a>
-		</li>
-		<li>
-			<a href="artikel.html" title="Artikel">Artikel</a>
-		</li>
-		<li>
-			<a href="pembayaran.html" title="Pembayaran">Pembayaran</a>
-		</li>
-		<li>
-			<a href="pertanyaan.html" title="Pertanyaan">Pertanyaan</a>
-		</li>
-		<li>
-			<a href="kontak.html" title="Kontak Kami">Kontak Kami</a>
-		</li>
-	</ul>
+	<div class="container menu-primer">
+		<ul>
+			<li>
+				<a href="index.html" title="Beranda">Beranda</a>
+			</li>
+			<li>
+				<a href="tentangkami.html" title="Tentang Kami">Tentang Kami</a>
+			</li>
+			<li>
+				<a href="dokumentasikegiatan.html" title="Dokumentasi Kegiatan">Dokumentasi Kegiatan</a>
+			</li>
+			<li>
+				<a href="recruitmentofparticipants.html" title="Recruitment of Participants">Recruitment of Participants</a>
+			</li>
+			<li>
+				<a href="kritikdansaran.html" title="Kritik dan Saran">Kritik dan Saran</a>
+			</li>
+			<li>
+				<a href="donasi.html" title="Donasi">Donasi</a>
+			</li>
+			<li>
+				<a href="kontak.html" title="Kontak Kami" class="menu-active">Kontak Kami</a>
+			</li>
+		</ul>
+	</div>
 	<!-- end menu primer -->
 
-	<!-- start jumbotrun -->
-<h1> kontak komunitas ikhlas mengajar</h1>
-<h3>Ikhlas mengajar menyediakan tempat untuk melatih potensi diri dalam mengajar.</h3>
+	<!-- start jumbotron -->
+<h1> Kontak Komunitas Ikhlas Mengajar </h1>
+<p>Untuk informasi lebih lanjut tentang komunitas kami, anda bisa menghubungi kontak email komunitas atau menghubungi salah satu kontak dari anggota ikhlas mengajar dibawah.</p>
 	<!-- end jumbotron -->
 
 	<!-- start alamat -->
-	<h2>Alamat Ikhlas mengajar</h2>
-	<p>Anda bisa pesan dan konfirmasi pembayaran mealui whatsapp dan email dibawah ini</p>
+	<h2>Alamat Sekretariat Ikhlas Mengajar</h2>
+	<p>Prov Aceh, Kab. Aceh Besar, Kec. Peukan bada, Desa Lamhasan, Dayah Safinatussalamah</p>
 	<ul>
-		<li>Email : <a href="zahrinawilda1@gmail.com" title="zahrinawilda1@gmail.com">zahrinawilda1@gmail.com</a></li>
-		<li>Whatsapp : <a href="tel:+62-123-456-789" title="tel:+62-123-456-789">tel:+62-123-456-789</a></li>
+		<li>Email : <a href="ikhlasmengajar17@gmail.com" title="ikhlasmengajar17@gmail.com">ikhlasmengajar17@gmail.com</a></li>
+		<li>Whatsapp : <a href="tel:+62-823-1153-1741" title="tel:+62-823-1153-1741">tel:+62-823-1153-1741</a></li>
 	</ul>
 	<!-- end alamat -->
 
 	<!-- start form -->
-	<h2>Form kontak ikhlas mengajar</h2>
+	<!-- <h2>Form kontak ikhlas mengajar</h2>
 	<p>anda bisa pesan dan konfirmasi pembayaran dengan mengisi form dibawah ini</p>	
 
 	<form action="">
@@ -101,7 +104,7 @@
 
 		<input type="submit" name="kirim" id="kirim" size="50" value="Kirim">
 
-	</form>
+	</form> -->
 	<!-- end form -->
 
 
@@ -164,7 +167,9 @@
 	<!-- end menu sekunder -->
 	
 	<!-- Start Copyright -->
-<p>Copyright &Copy; 2019-Wiza</p>
+	<div class="container Copyright">
+		<p>Copyright &copy; 2019 - Ikhlas Mengajar</p>
+	</div>
 	<!-- end Copyright -->
 </body>
 </html>
